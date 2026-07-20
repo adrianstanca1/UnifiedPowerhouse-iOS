@@ -21,12 +21,12 @@ jobs:
 
       - name: Install dependencies
         run: |
-          gem install cocoapods --quiet
-          pod install --repo-update || true
+          gem install cocoapods --quiet || true
+          if [ -f Podfile ]; then pod install --repo-update || true; fi
 
       - name: Build app
         run: |
-          xcodebuild -workspace UnifiedPowerhouse.xcworkspace \
+          xcodebuild -project UnifiedPowerhouse.xcodeproj \
             -scheme UnifiedPowerhouse \
             -sdk iphonesimulator \
             -configuration Release \
@@ -36,7 +36,7 @@ jobs:
 
       - name: Run tests
         run: |
-          xcodebuild -workspace UnifiedPowerhouse.xcworkspace \
+          xcodebuild -project UnifiedPowerhouse.xcodeproj \
             -scheme UnifiedPowerhouse \
             -sdk iphonesimulator \
             -configuration Release \
@@ -73,7 +73,7 @@ jobs:
 
       - name: Build and archive
         run: |
-          xcodebuild -workspace UnifiedPowerhouse.xcworkspace \
+          xcodebuild -project UnifiedPowerhouse.xcodeproj \
             -scheme UnifiedPowerhouse \
             -sdk iphoneos \
             -configuration Release \
