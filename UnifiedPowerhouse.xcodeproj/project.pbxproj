@@ -20,6 +20,14 @@
 		B3A3BC834F0CB275B6FBD96E /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24041EA458491B73B6241946 /* SettingsView.swift */; };
 		2E30C4D43BD05A01560AA507 /* Color+Hex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15550DD124EC35315C292939 /* Color+Hex.swift */; };
 		B2059AFBF1E913AC45282EA4 /* DashboardViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7AD59A44EE85D1E9E97EBA9 /* DashboardViewModel.swift */; };
+		A26BBBE1080785113B5C04BF /* BiometricLoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C438FCFB3A519DDFC63EE31B /* BiometricLoginView.swift */; };
+		EDE60A67CB251922040A719F /* OfflineBannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 346F68EF32C17A9340CAD004 /* OfflineBannerView.swift */; };
+		4DD16B9BD145E4A260553958 /* BiometricAuthManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF36DA31F03B30B31137B2D3 /* BiometricAuthManager.swift */; };
+		FE4BF75572E9E90337DCEBD8 /* NotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 151E9286A7A70060425EC79C /* NotificationManager.swift */; };
+		58ACF009CCCC8C8CE27C8A64 /* OfflineCacheManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC2A1525C7AAB11A9E2AA8E9 /* OfflineCacheManager.swift */; };
+		4CB7EABD918C25AD9BA41A16 /* UnifiedAPIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81FC6A459CE5689613175F8B /* UnifiedAPIClient.swift */; };
+		45B3D0BE5278679F75D0854A /* UnifiedShortcutsProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 886F2F9A6AE4121356D5E6C4 /* UnifiedShortcutsProvider.swift */; };
+		2067193CAC66D0943BE665EE /* DashboardWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BAAB8519E93B65CC4458CB2 /* DashboardWidget.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +46,14 @@
 		15550DD124EC35315C292939 /* Color+Hex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Hex.swift"; sourceTree = "<group>"; };
 		E7AD59A44EE85D1E9E97EBA9 /* DashboardViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardViewModel.swift; sourceTree = "<group>"; };
 		B6E0FB54B7AEF0401CE36075 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C438FCFB3A519DDFC63EE31B /* BiometricLoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BiometricLoginView.swift; sourceTree = "<group>"; };
+		346F68EF32C17A9340CAD004 /* OfflineBannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OfflineBannerView.swift; sourceTree = "<group>"; };
+		CF36DA31F03B30B31137B2D3 /* BiometricAuthManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BiometricAuthManager.swift; sourceTree = "<group>"; };
+		151E9286A7A70060425EC79C /* NotificationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationManager.swift; sourceTree = "<group>"; };
+		BC2A1525C7AAB11A9E2AA8E9 /* OfflineCacheManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OfflineCacheManager.swift; sourceTree = "<group>"; };
+		81FC6A459CE5689613175F8B /* UnifiedAPIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnifiedAPIClient.swift; sourceTree = "<group>"; };
+		886F2F9A6AE4121356D5E6C4 /* UnifiedShortcutsProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnifiedShortcutsProvider.swift; sourceTree = "<group>"; };
+		2BAAB8519E93B65CC4458CB2 /* DashboardWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardWidget.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +115,8 @@
 				23020D91685C0AEF38B43898 /* ProcessesView.swift */,
 				DDD405931C29CDCD02025C59 /* ChatView.swift */,
 				24041EA458491B73B6241946 /* SettingsView.swift */,
+					C438FCFB3A519DDFC63EE31B /* BiometricLoginView.swift */,
+					346F68EF32C17A9340CAD004 /* OfflineBannerView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -116,6 +134,11 @@
 			children = (
 				8838C7BCAE3FD16BCFAF5DC0 /* AuthManager.swift */,
 				21A74934CE1B2D5362C70BC8 /* WebSocketManager.swift */,
+					CF36DA31F03B30B31137B2D3 /* BiometricAuthManager.swift */,
+					151E9286A7A70060425EC79C /* NotificationManager.swift */,
+					BC2A1525C7AAB11A9E2AA8E9 /* OfflineCacheManager.swift */,
+					81FC6A459CE5689613175F8B /* UnifiedAPIClient.swift */,
+					886F2F9A6AE4121356D5E6C4 /* UnifiedShortcutsProvider.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -136,6 +159,15 @@
 			path = Resources;
 			sourceTree = "<group>";
 		};
+		0337B335D19A3D453FF64F8F /* Widgets */ = {
+			isa = PBXGroup;
+			children = (
+					2BAAB8519E93B65CC4458CB2 /* DashboardWidget.swift */,
+			);
+			path = Widgets;
+			sourceTree = "<group>";
+		};
+
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -207,6 +239,14 @@
 				B3A3BC834F0CB275B6FBD96E /* SettingsView.swift in Sources */,
 				2E30C4D43BD05A01560AA507 /* Color+Hex.swift in Sources */,
 				B2059AFBF1E913AC45282EA4 /* DashboardViewModel.swift in Sources */,
+				A26BBBE1080785113B5C04BF /* BiometricLoginView.swift in Sources */,
+				EDE60A67CB251922040A719F /* OfflineBannerView.swift in Sources */,
+				4DD16B9BD145E4A260553958 /* BiometricAuthManager.swift in Sources */,
+				FE4BF75572E9E90337DCEBD8 /* NotificationManager.swift in Sources */,
+				58ACF009CCCC8C8CE27C8A64 /* OfflineCacheManager.swift in Sources */,
+				4CB7EABD918C25AD9BA41A16 /* UnifiedAPIClient.swift in Sources */,
+				45B3D0BE5278679F75D0854A /* UnifiedShortcutsProvider.swift in Sources */,
+				2067193CAC66D0943BE665EE /* DashboardWidget.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

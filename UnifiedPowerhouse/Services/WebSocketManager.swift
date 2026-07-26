@@ -1,7 +1,7 @@
 import Foundation
 import Combine
 
-class WebSocketManager: ObservableObject {
+class WebSocketManager: NSObject, ObservableObject {
     static let shared = WebSocketManager()
     
     @Published var isConnected = false
