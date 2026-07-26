@@ -5,13 +5,8 @@
     <key>method</key>
     <string>app-store</string>
     <key>teamID</key>
-    <string>YOUR_TEAM_ID</string>
-    <key>provisioningProfiles</key>
-    <dict>
-        <key>com.cortexbuildpro.unified</key>
-        <string>Unified Powerhouse App Store</string>
-    </dict>
+    <string>4G3G5MX9BH</string>
     <key>signingStyle</key>
-    <string>manual</string>
+    <string>automatic</string>
 </dict>
 </plist>
