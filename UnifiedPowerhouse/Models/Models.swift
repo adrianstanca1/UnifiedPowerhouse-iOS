@@ -34,11 +34,18 @@ struct LogEntry: Identifiable {
 }
 
 struct ChatMessage: Identifiable {
-    let id = UUID()
+    let id: UUID
     let sender: String
     let content: String
     let timestamp: Date
     var isUser: Bool { sender.lowercased() == "user" }
+
+    init(id: UUID = UUID(), sender: String, content: String, timestamp: Date) {
+        self.id = id
+        self.sender = sender
+        self.content = content
+        self.timestamp = timestamp
+    }
 }
 
 struct PM2Process: Identifiable, Codable {
