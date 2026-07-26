@@ -86,6 +86,7 @@
 		0564C7D79090E800CB6CC48B /* UnifiedPowerhouse */ = {
 			isa = PBXGroup;
 			children = (
+				02C991284410E1B7388D9932 /* UnifiedPowerhouseApp.swift */,
 				8FB613D930E396855A14DA4B /* Models */,
 				07F5EA1D7BE4CFF6B4A1AB83 /* Views */,
 				7DD96D9B325546AC2CF01613 /* ViewModels */,
