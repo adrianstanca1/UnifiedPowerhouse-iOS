@@ -26,8 +26,6 @@
 		F6FFC4C87F7D3DACDFC83D49 /* NotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F368FBF303E7C0A4BCB00567 /* NotificationManager.swift */; };
 		09BD2EB4F303B703F2924FF7 /* OfflineCacheManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED1FEAA0E0D4EB0747C1E37 /* OfflineCacheManager.swift */; };
 		145E5DB3E254F68DAAEB0CCA /* UnifiedAPIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 573BD4613AA7AB0535A8D296 /* UnifiedAPIClient.swift */; };
-		6DE090A0625D7D2F17776FB4 /* UnifiedShortcutsProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33346A23463EF0FE8628FEFD /* UnifiedShortcutsProvider.swift */; };
-		177F8ED0FD31FB57D33B96F7 /* DashboardWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9136B6E6A4EE9C682ACBDE1 /* DashboardWidget.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -51,8 +49,6 @@
 		F368FBF303E7C0A4BCB00567 /* NotificationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationManager.swift; sourceTree = "<group>"; };
 		DED1FEAA0E0D4EB0747C1E37 /* OfflineCacheManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OfflineCacheManager.swift; sourceTree = "<group>"; };
 		573BD4613AA7AB0535A8D296 /* UnifiedAPIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnifiedAPIClient.swift; sourceTree = "<group>"; };
-		33346A23463EF0FE8628FEFD /* UnifiedShortcutsProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnifiedShortcutsProvider.swift; sourceTree = "<group>"; };
-		A9136B6E6A4EE9C682ACBDE1 /* DashboardWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardWidget.swift; sourceTree = "<group>"; };
 		B6E0FB54B7AEF0401CE36075 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -92,7 +88,6 @@
 				7DD96D9B325546AC2CF01613 /* ViewModels */,
 				56B5AC7CB249A2ECEFFA0844 /* Services */,
 				69098CF20A5FDDC701EA6DC5 /* Utils */,
-				0337B335D19A3D453FF64F8F /* Widgets */,
 				33D5C3E33F216D4FBBEDF804 /* Resources */,
 			);
 			path = UnifiedPowerhouse;
@@ -139,7 +134,6 @@
 				F368FBF303E7C0A4BCB00567 /* NotificationManager.swift */,
 				DED1FEAA0E0D4EB0747C1E37 /* OfflineCacheManager.swift */,
 				573BD4613AA7AB0535A8D296 /* UnifiedAPIClient.swift */,
-				33346A23463EF0FE8628FEFD /* UnifiedShortcutsProvider.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -150,14 +144,6 @@
 				15550DD124EC35315C292939 /* Color+Hex.swift */,
 			);
 			path = Utils;
-			sourceTree = "<group>";
-		};
-		0337B335D19A3D453FF64F8F /* Widgets */ = {
-			isa = PBXGroup;
-			children = (
-				A9136B6E6A4EE9C682ACBDE1 /* DashboardWidget.swift */,
-			);
-			path = Widgets;
 			sourceTree = "<group>";
 		};
 		33D5C3E33F216D4FBBEDF804 /* Resources */ = {
@@ -245,8 +231,6 @@
 				F6FFC4C87F7D3DACDFC83D49 /* NotificationManager.swift in Sources */,
 				09BD2EB4F303B703F2924FF7 /* OfflineCacheManager.swift in Sources */,
 				145E5DB3E254F68DAAEB0CCA /* UnifiedAPIClient.swift in Sources */,
-				6DE090A0625D7D2F17776FB4 /* UnifiedShortcutsProvider.swift in Sources */,
-				177F8ED0FD31FB57D33B96F7 /* DashboardWidget.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
